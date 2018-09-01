@@ -8,7 +8,13 @@ def quadratic(a,b,c):
         print(str(e))
 def trig_derivatives(d):
     trig={"sin(u)":"cos(u)*u'",
-          "cos(u)":"-sin(u)*u'"}
+          "cos(u)":"-sin(u)*u'",
+          "tan(u)":"sec(u)*sec(u)*u'",
+          "csc(u)":"-cot(u)*csc(u)*u'",
+          "sec(u)":"sec(u)*tan(u)*u'",
+          "cot(u)":"-csc(u)*csc(u)*u'"
+          }
     print(str(d)+" : "+trig[d])
     
     
+
