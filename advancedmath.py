@@ -15,6 +15,12 @@ def trig_derivatives(d):
           "cot(u)":"-csc(u)*csc(u)*u'"
           }
     print(str(d)+" : "+trig[d])
-    
-    
-
+def average_list(d):
+    s=sum(d)
+    print(s/len(d))
+def circle_area(radius):
+    print(radius*radius*math.pi)
+def area_triangle(base,height):
+    print((base*height)/2)
+def vol_cube(length):
+    print(length**3)
