@@ -48,3 +48,8 @@ def vol_pyramid(base,height):
 
 def vol_cone(radius,height):
     print(pi*radius*radius*height/3)
+
+def sufrace_area_cube(length):
+    print(6*length)
+def slope(x1,y1,x2,y2):
+    print((y2-y1)/(x2-x1))
