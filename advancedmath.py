@@ -53,3 +53,25 @@ def sufrace_area_cube(length):
     print(6*length)
 def slope(x1,y1,x2,y2):
     print((y2-y1)/(x2-x1))
+
+def list_sum(list):
+    b=0
+    for r in list :
+        b=b+r
+    print(b)
+    
+def distance_point(x1,y1,x2,y2):
+    a=(x2-x1)**2+(y2-y1)**2
+    print(math.sqrt(a))
+
+def speed(v0,a,t):
+    print(v0+a*t)
+
+def sin_formula(angle_a,side_a,angle_b,side_b,angle_c,side_c):
+    a=math.sin(angle_a)/side_a
+    b=math.sin(angle_b)/side_b
+    c=math.sin(angle_c)/side_c
+    if(a==b and b==c and a==c):
+        print("True")
+    else:
+        print("Flase")
