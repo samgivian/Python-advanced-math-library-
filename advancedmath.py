@@ -1,5 +1,11 @@
 import math
-
+#array 
+def magnitudeVector(vectors):
+    total=0
+    for v in vectors:
+        total+=v*2
+    magnitude=total**0.5
+    return magnitude
 def quadratic(a,b,c):
     try :
         x1=(-b+math.sqrt((b**2-4*a*c)))/(2*a)
@@ -75,3 +81,11 @@ def sin_formula(angle_a,side_a,angle_b,side_b,angle_c,side_c):
         print("True")
     else:
         print("Flase")
+
+def mean(Listofnumbers):
+    total=0
+    counter=0
+    for r in Listofnumbers:
+        counter+=1
+        total+=r
+    return total/counter
