@@ -5,9 +5,7 @@ The library features more adavanced math functions and capabilties than the norm
 
 2)Find the location were your python is installed.
 
-3)Paste the downloaded file in the lib file
-
-4)Enjoy
+3)Paste the downloaded file in it.
 
 ## How to use it 
 type import advancedmath on top of your program
